@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/contentRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="#FBEFEF"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" >
+
+            <ImageView
+                android:id="@+id/img_headphone"
+                android:src="@drawable/headphone_icon"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <RelativeLayout
+                android:layout_toEndOf="@id/img_headphone"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/trackTitle"
+                    android:textColor="#212121"
+                    android:textSize="17sp"
+                    android:textStyle="normal"
+                    android:paddingEnd="9dp"
+                    android:paddingBottom="-7dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Track Title"
+                    android:singleLine="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/trackArtist"
+                    android:textColor="#bdbdbd"
+                    android:text="Track Artist"
+                    android:paddingEnd="7dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_below="@id/trackTitle"
+                    android:singleLine="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/contentRow"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content">-->
+
+<!--    <RelativeLayout-->
+<!--        android:background="#FFF"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp" >-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/trackTitle"-->
+<!--                android:textColor="#212121"-->
+<!--                android:textSize="17sp"-->
+<!--                android:textStyle="normal"-->
+<!--                android:paddingEnd="9dp"-->
+<!--                android:paddingBottom="-7dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:text="Track Title"-->
+<!--                android:singleLine="true"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/trackArtist"-->
+<!--                android:textColor="#bdbdbd"-->
+<!--                android:text="Track Artist"-->
+<!--                android:paddingEnd="7dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_below="@id/trackTitle"-->
+<!--                android:singleLine="true"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </RelativeLayout>-->
+
+<!--</RelativeLayout>-->

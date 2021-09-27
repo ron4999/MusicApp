@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Sort by"
+        android:id="@+id/action_sort"
+        android:icon="@drawable/sort_icon"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:title="Recently Added"
+                android:id="@+id/by_recently_added">
+            </item>
+
+            <item
+                android:title="Name"
+                android:id="@+id/by_name">
+            </item>
+        </menu>
+    </item>
+</menu>

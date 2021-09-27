@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingFragment">
+
+    <TextView
+        android:id="@+id/changeShakeText"
+        android:text="Change song on Shake"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:padding="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/shakeSwitch"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:backgroundTint="#212121"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_below="@id/changeShakeText"
+        android:layout_marginTop="10dp"
+        android:background="#00695C"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"/>
+
+    <TextView
+        android:id="@+id/changeThemeText"
+        android:text="Change Theme"
+        android:layout_below="@id/changeShakeText"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:padding="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/themeSwitch"
+        android:layout_below="@id/shakeSwitch"
+        android:layout_margin="20dp"
+        android:text="Change"
+        android:backgroundTint="#0277BD"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_below="@id/changeThemeText"
+        android:layout_marginTop="10dp"
+        android:background="#00695C"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"/>
+
+</RelativeLayout>
