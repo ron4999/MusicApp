@@ -8,3 +8,4 @@ App made by: Trần Bảo Đức Minh, Vũ Trọng Khiêm, Vũ Quang Huy, Nguy�
   + Thêm bài hát vào danh sách yêu thích
   + Tìm kiếm theo tên bài hát
   + Settings: Lắc để chuyển bài hát, giao diện sáng tối, equalizer
+- Ảnh Demo App: xem trong thư mục AppScreen
